@@ -82,7 +82,9 @@ public class MinmHUIMinerNeg {
     public int runAlgorithm(String input, int minimumUtility, String outputMin) throws IOException {
 
         maxMemory = 0;
+ 
 
+        
         startTimestamp = System.currentTimeMillis();
 
         writerMin = new BufferedWriter(new FileWriter(outputMin));
